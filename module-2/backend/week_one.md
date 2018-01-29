@@ -43,7 +43,7 @@ ivars.
 
   <%= @count %>
 
-  not sure i understand this question. am i supposed to be changing the value of @count or does it hold the value `1` already?
+  not sure i understand this question. am i supposed to be changing the value of `count` or does it hold the value `1` already?
 
 8. In the same code block, how would I pass a local variable `name` with a value of `Mr. Ed` to the view?
 
@@ -51,7 +51,7 @@ ivars.
 
 9. What's the purpose of ERB?
 
-the purpose is to embed ruby in html to have dynamic webpages.
+the purpose is to embed ruby in HTML to have dynamic webpages.
 
 10. Why do I need a development AND test database?
 
@@ -60,7 +60,7 @@ this is a guess.
 
 11. What is CRUD and why is it important?
 
-crud stands for create, read, update, delete. these are the basic functions for storage on a server. without these, a webapp is useless.
+CRUD stands for create, read, update, delete. these are the basic functions for storage on a server. without these, a webapp is useless.
 
 12. What does HTTP stand for?
 
@@ -73,7 +73,7 @@ HyperText Transfer Protocol. HTP. this will forever bother me,
 
 14. What's an ORM?
 
-an orm is an object relational mapper. the orm we are using currently is activerecord. this is what enables us to interact with our database without having to use raw sql.
+an ORM is an object relational mapper. the ORM we are using currently is activerecord. this is what enables us to interact with our database without having to use raw SQL.
 
 15. What's the most commonly used ORM in ruby (Sinatra & Rails)?
 
@@ -91,7 +91,7 @@ DELETE /class/:id Class.destroy this will delete item of choice
 
 17. What's a migration?
 
-a migration creates a change to the existing database system. create a table, change a table, wtc.
+a migration creates a change to the existing database system. create a table, change a table etc.
 
 18. When you create a migration, does it automatically modify your database?
 
@@ -109,7 +109,7 @@ a model tells the database which values are required. i'm not sure what else at 
 ### Review Questions:  
 21. Given a CSV file (“films.csv”) with these headers [id, title, description], how would you load these into your database to create new instances of Film?
 
-i would use a ```CSV.foreach``` ```row.to_hash``` method in seeds.rb to enter the entire csv into the table.
+i would use a ```CSV.foreach``` ```row.to_hash``` method in seeds.rb to enter the entire CSV into the table.
 
 22. Given the following hash:
 ```
