@@ -151,7 +151,7 @@ probably the first example. just sayin' :P
 23. What are the 4 Principles of OOP? Give a one sentence explanation of each.
 
 abstraction - making real life object in code. classes.
-encapsulation - keeping srp inside methods, class, modules etc.
+encapsulation - keeping SRP inside methods, class, modules etc.
 inheritance - the act of inheriting methods and or state from other classes / modules (no state inheritance through modules as they are stateless).
 polymorphism - i remember learning that this is the condition of occurring in several different forms but i don't really know what that means in terms of computer science.
 
